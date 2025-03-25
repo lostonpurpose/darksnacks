@@ -61,7 +61,7 @@ h2 {
 }
 
 .card {
-    width: 400px;
+    width: 330px;
     height: 1000px;
     overflow: hidden;
     display: flex;
@@ -69,7 +69,7 @@ h2 {
 }
 
 .img-container {
-    height: 500px;
+    height: 400px;
     width: 330px;
     overflow: hidden;
     border-radius: 20px;
@@ -87,9 +87,42 @@ h2 {
     /* border-radius: 20px; */
     overflow: hidden;
     background-color: red;
-    margin-top: -15%;
+    margin-top: -12%;
+}
+
+.images-snes {
+    width: 100%;
+    height: 140%;
+    object-fit: cover; /* Ensures the image fully covers the space */
+    object-position: 50% 20%; /* Centers the image */
+    position: absolute; /* Ensures it’s positioned correctly within the container */
+    top: 0;
+    left: 0;
+    /* border-radius: 20px; */
+    overflow: hidden;
+    background-color: red;
+    margin-top: -9%;
+}
+.images-switch {
+    width: 100%;
+    height: 140%;
+    object-fit: cover; /* Ensures the image fully covers the space */
+    object-position: 39% 20%; /* Centers the image */
+    position: absolute; /* Ensures it’s positioned correctly within the container */
+    top: 0;
+    left: 0;
+    /* border-radius: 20px; */
+    overflow: hidden;
+    background-color: red;
+    margin-top: -12%;
 }
 
 .card-text {
-    margin-top: 70px;
+    margin-top: 65px;
+}
+
+.game {
+    font-weight: bold;
+    font-size: 27px;
+    margin-bottom: 25px;
 }
