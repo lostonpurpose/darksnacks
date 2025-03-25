@@ -76,14 +76,18 @@ h2 {
     position: relative; /* Allow positioning of child elements */
 }
 
-.images {
+.images-nes {
     width: 100%;
-    height: 100%;
+    height: 120%;
     object-fit: cover; /* Ensures the image fully covers the space */
-    object-position: 50% 0%; /* Centers the image */
+    object-position: 60% 00%; /* Centers the image */
     position: absolute; /* Ensures it’s positioned correctly within the container */
     top: 0;
     left: 0;
+    /* border-radius: 20px; */
+    overflow: hidden;
+    background-color: red;
+    margin-top: -15%;
 }
 
 .card-text {
