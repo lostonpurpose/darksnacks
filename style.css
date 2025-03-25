@@ -1,0 +1,91 @@
+*`{
+    
+}
+
+body {
+    background-image: url(./images/darksnacks-web.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-left: 9%;
+    margin-right: 9%;
+    margin-top: 30px;
+    margin-bottom: 140px;
+}
+
+.pages {
+    display: flex;
+}
+
+h2 {
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    display: flex;
+}
+
+.title {
+    display: block;   /* Allows centering */
+    width: 62%;       /* Adjust as needed */
+    margin: 0 auto;   /* Centers the span */
+    text-align: left;  /* Aligns text inside to the left */
+    font-weight: bold;
+}
+
+.text {
+    text-align: left;
+    font-size: 70px;
+    margin-bottom: 160px;
+}
+
+.sub-header {
+    font-size: 38px;
+    width: 80%;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.all-cards {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 400px;
+    height: 1000px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.img-container {
+    height: 500px;
+    width: 330px;
+    overflow: hidden;
+    border-radius: 20px;
+    position: relative; /* Allow positioning of child elements */
+}
+
+.images {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image fully covers the space */
+    object-position: 50% 0%; /* Centers the image */
+    position: absolute; /* Ensures it’s positioned correctly within the container */
+    top: 0;
+    left: 0;
+}
+
+.card-text {
+    margin-top: 70px;
+}
