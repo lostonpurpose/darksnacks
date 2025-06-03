@@ -20,10 +20,6 @@ header {
     margin-bottom: 140px;
 }
 
-.ds-title {
-    margin-left: 20px;
-}
-
 header h3 {
     margin-left: 28px;
 }
@@ -38,8 +34,18 @@ h2 {
     padding: 0;
 }
 
+.ds-title {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
 .logo {
     display: flex;
+}
+
+.logo img {
+    margin-top: 8px;
 }
 
 .title {
