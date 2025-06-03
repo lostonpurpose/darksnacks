@@ -1,5 +1,5 @@
-*`{
-    
+*{
+    box-sizing: border-box;
 }
 
 body {
@@ -72,7 +72,7 @@ h2 {
 
 .card {
     width: 330px;
-    height: 1000px;
+    height: 850px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -138,7 +138,8 @@ h2 {
 }
 
 .stats {
-    background-color: #181930;
+    /* background-color: #181930; */
+    background: linear-gradient(to bottom, rgb(0, 0, 0), #292b53);
     display: flex;
     justify-content: space-between;
     align-items: center;
